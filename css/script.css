@@ -1,0 +1,158 @@
+.title h1{
+    color: silver;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.title h2{
+    color: silver;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.logo{
+    float: left;
+    margin: 25px;
+    padding: 15px;
+}
+.figure{
+    color: whitesmoke;
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+    font-style: italic;
+    font-size: large;
+    border-style: groove;
+}
+.figure:hover{
+    background-color: darkgrey;
+}
+.search{
+    float: right;
+    margin: 25px;
+    padding: 15px;
+}
+/* .para{
+    color: black;
+} */
+.container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border-radius: 3%;
+    background-image: url(../images/background5.jpg);
+
+}
+.clearfix{
+    clear: both;
+}
+.nav-class{
+    background-color: black;
+}
+.nav-class > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.nav-class > ul > li{
+    display: inline-block;
+}
+.nav-class > ul > li > a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+.nav-class > ul > li > a:hover{
+    background-color: darkgrey;
+}
+.drop{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+}
+.drop > li > a{
+    color: bisque;
+    text-decoration: none;
+    display: block;
+    padding: 21.5px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+    font-style: italic;
+}
+.drop > li > a:hover{
+    background-color: darkgrey;
+    border-radius: 100%;
+}
+.nav-class > ul > li:hover .drop{
+    display: block;
+}
+.cycle-slideshow{
+    width: 1000px;
+    height: auto;
+}
+.cycle-slideshow img{
+    width: 100%;
+    height: auto;
+}
+.sec{
+    width: 700px;
+    height: auto;
+    float: left;
+    padding: 25px;
+    color: whitesmoke;
+    background-image: url(../images/background3.jpg);
+}
+.side{
+    width: 120px;
+    height: auto;
+    float: right;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 20px;
+    background-color: black;
+}
+.heading3{
+    margin: 0px;
+}
+.side > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.side > ul > li{
+    font-style: oblique;
+}
+.side > ul > li >a{
+    margin: 0px;
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color:whitesmoke;
+    display: block;
+    text-decoration: none;
+}
+.side > ul > li >a:hover{
+    background-color:darkgray;
+}
+.add{
+    color: whitesmoke;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.add a{
+    text-decoration: none;
+    color: aqua;
+    display: inline-block;
+    padding: 10px;
+}
+.add a:hover{
+    background-color: black;
+}

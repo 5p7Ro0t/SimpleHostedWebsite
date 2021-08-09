@@ -1,0 +1,87 @@
+.laptops{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border-radius: 3%;
+    background-image: url(../images/background5.jpg);
+}
+.title h1{
+    color: silver;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.title h2{
+    color: silver;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.logo{
+    float: left;
+    margin: 25px;
+    padding: 15px;
+}
+.figure{
+    color: whitesmoke;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px;
+    border-style: groove;
+    font-style: italic;
+    font-size: large; 
+}
+.figure:hover{
+    background-color: darkgrey;
+}
+.search{
+    float: right;
+    margin: 25px;
+    padding: 15px;
+}
+.product{
+    margin: 0px;
+    padding: 10px;
+    background-image: url(../images/background3.jpg);
+}
+.product img{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.product h4{
+    color: white;
+}
+.product ul{
+    color: whitesmoke;
+    font-size: small;
+}
+.laptops ul {
+    padding-left: 255px;
+}
+.clearfix{
+    clear: both;
+}
+.price{
+    float: right;
+    margin: 20px;
+}
+.price h3{
+    margin: 0px;
+}
+.price h5{
+    margin-top: 10px;
+}
+.nav-class{
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: small;
+    font-style: italic;
+}
